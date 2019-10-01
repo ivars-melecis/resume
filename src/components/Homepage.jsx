@@ -1,5 +1,4 @@
-import React, { useContext, Fragment } from 'react';
-import { HomeContext } from '../contexts/HomeContext';
+import React, { Fragment, useRef } from 'react';
 
 // Components
 import Landing from './Landing';
@@ -8,27 +7,25 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
+import SvgSprite from './SVGSprite';
+import Sticky from '../components/Sticky';
 
 const Homepage = () => {
-  const { data, dispatch } = useContext(HomeContext);
+  const stickyRef = useRef(null);
+
   return (
     <Fragment>
+      <SvgSprite />
       <Landing />
-      <MenuBar />
+      <div className='menu-bar-wrap' ref={stickyRef}>
+        <Sticky item={stickyRef}>
+          <MenuBar />
+        </Sticky>
+      </div>
       <About />
       <Skills />
       <Projects />
       <Contact />
-      <div>
-        <ul>
-          {data.sectionNav.map(section => (
-            <li>{section}</li>
-          ))}
-        </ul>
-        <span>{data.message}</span>
-        <button onClick={() => dispatch({ type: 'ADD_MESSAGE', msg: 'Hello' })}>Add Message</button>
-        <button onClick={() => dispatch({ type: 'REMOVE_ALL_DATA' })}>Clear Data</button>
-      </div>
     </Fragment>
   );
 };
