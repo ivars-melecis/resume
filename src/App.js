@@ -1,13 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Hompage from './components/Homepage';
+import HomeContextProvider from './contexts/HomeContext';
 
 import './App.css';
 
 function App() {
   return (
-    <Fragment>
+    <HomeContextProvider>
       <Hompage />
-    </Fragment>
+    </HomeContextProvider>
   );
 }
 

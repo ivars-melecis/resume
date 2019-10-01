@@ -3,10 +3,13 @@ export const homeReducer = (state, action) => {
     case 'ADD_MESSAGE':
       return {
         ...state,
-        message: action.data
+        message: action.msg
       };
     case 'REMOVE_ALL_DATA':
-      return {};
+      return {
+        msg: '',
+        sectionNav: []
+      };
     default:
       return state;
   }

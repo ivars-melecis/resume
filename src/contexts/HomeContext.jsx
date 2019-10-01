@@ -3,15 +3,18 @@ import { homeReducer } from '../reducers/homeReducer';
 
 export const HomeContext = createContext();
 
-const NavContextProvider = props => {
-  const [data, dispatch] = useReducer(homeReducer, []);
+const HomeContextProvider = props => {
+  const [data, dispatch] = useReducer(homeReducer, {
+    msg: '',
+    sectionNav: ['One', 'Two', 'Three', 'Four']
+    
+  });
 
   useEffect(() => {
-    const data = { message: 'HI' };
-    dispatch({ type: 'ADD_MESSAGE', data });
+    dispatch({ type: 'ADD_MESSAGE', msg: 'HI' });
   }, []);
 
   return <HomeContext.Provider value={{ data, dispatch }}>{props.children}</HomeContext.Provider>;
 };
 
-export default NavContextProvider;
+export default HomeContextProvider;
