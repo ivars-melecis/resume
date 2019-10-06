@@ -7,7 +7,7 @@ const About = () => {
   const { title, content, image } = data.about;
 
   return (
-    <section className='home-section about-section'>
+    <section className='home-content-section about-section'>
       <div className='home-content-wrap'>
         <h2 className='block-heading secondary-font'>
           <span>&lt; {title} /&gt;</span>

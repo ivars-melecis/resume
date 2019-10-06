@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import ProjectsSlider from './ProjectsSlider';
+import { HomeContext } from '../contexts/HomeContext';
 
 const Projects = () => {
+  const { data } = useContext(HomeContext);
+  const { title, items } = data.projects;
+
   return (
-    <section className='home-section projects-section'>
-      <h1>Projects</h1>
+    <section className='home-content-section projects-section'>
+      <div className='home-content-wrap'>
+        <h2 className='block-heading secondary-font'>
+          <span>&lt; {title} /&gt;</span>
+        </h2>
+        <ProjectsSlider slides={items} />
+        <p className='ps-info-text'>*My work is the front-end of websites above using HTML, CSS and Javascript on our very basic in-house template.</p>
+      </div>
     </section>
   );
 };

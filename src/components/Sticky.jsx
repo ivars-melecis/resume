@@ -23,7 +23,6 @@ const Sticky = props => {
       return { lefttt: posX, toppp: posY };
     }
 
-    //helper
     function GetScrolled(object, scrolled) {
       scrolled = scrolled || { x: 0, y: 0 };
       scrolled.x += object.scrollLeft;
@@ -42,8 +41,6 @@ const Sticky = props => {
       } else {
         setConfig({ isSticky: false });
       }
-
-      //console.log(Positionsss);
     }
 
     window.addEventListener('scroll', isSticky, false);

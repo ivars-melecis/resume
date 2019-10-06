@@ -1,17 +1,21 @@
-import React, { Fragment, useRef } from 'react';
+import React, { Fragment, useRef, useContext } from 'react';
 
-// Components
 import Landing from './Landing';
 import MenuBar from './MenuBar';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
-import Contact from './Contact';
+import DeepFooter from './DeepFooter';
 import SvgSprite from './SVGSprite';
 import Sticky from '../components/Sticky';
+import FooterStrip from './FooterStrip';
+import ScrollTop from './ScrollTop';
+import { HomeContext } from '../contexts/HomeContext';
 
 const Homepage = () => {
+  const { data } = useContext(HomeContext);
   const stickyRef = useRef(null);
+  const scrollTarget = `.${data.sections[0]}-section`;
 
   return (
     <Fragment>
@@ -25,7 +29,9 @@ const Homepage = () => {
       <About />
       <Skills />
       <Projects />
-      <Contact />
+      <DeepFooter />
+      <FooterStrip />
+      <ScrollTop pixels={800} scrollTarget={scrollTarget} />
     </Fragment>
   );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const SocialMediaItem = ({ item }) => {
-  const { link, icon, title, newTab, classes = null } = item;
+  const { link, icon, title, newTab = true, classes = null } = item;
 
   const linkClasses = classes ? `sm-link ${classes}` : 'sm-link';
 
