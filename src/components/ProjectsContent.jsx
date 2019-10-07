@@ -33,7 +33,7 @@ const ProjectsContent = ({ activeIndex, items: data }) => {
               );
             })}
           </ul>
-          <a className='psh-link' href={item.link} target='_blank' rel='noopener noreferrer'>
+          <a className='psh-link' href={item.link} target='_blank' rel='noopener noreferrer nofollow'>
             Visit Site
           </a>
         </div>
