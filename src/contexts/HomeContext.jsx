@@ -150,7 +150,7 @@ const HomeContextProvider = props => {
     },
     projects: {
       title: 'Projects',
-      content: ['Below are some of recent websites I have build using Photoshop designs and provided in-house template.','Feel free to check out my Codepen or GitHub accounts for more.'],
+      content: ['Below are some of recent websites I have built using Photoshop designs and provided in-house template.', 'Feel free to check out my Codepen or GitHub accounts for more projects.'],
       items: [
         {
           id: 0,
