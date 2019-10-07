@@ -11,6 +11,7 @@ import Sticky from '../components/Sticky';
 import FooterStrip from './FooterStrip';
 import ScrollTop from './ScrollTop';
 import { HomeContext } from '../contexts/HomeContext';
+import Helmet from 'react-helmet';
 
 const Homepage = () => {
   const { data } = useContext(HomeContext);
@@ -19,6 +20,10 @@ const Homepage = () => {
 
   return (
     <Fragment>
+      <Helmet>
+        <link rel='canonical' href='https://melecis.co.uk/' />
+        <meta name='robots' content='index, follow' />
+      </Helmet>
       <SvgSprite />
       <Landing />
       <div className='menu-bar-wrap' ref={stickyRef}>

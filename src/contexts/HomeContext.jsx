@@ -45,10 +45,13 @@ const HomeContextProvider = props => {
       }
     ],
     about: {
-      title: 'About',
+      title: 'About Me',
       content: [
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, molestiae! Quam fuga reiciendis, illum eos veritatis assumenda rerum iure error laborum voluptatem cumque ipsam, officiis molestias praesentium dicta impedit id!',
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque sint at cum architecto magni mollitia odit necessitatibus et itaque soluta facilis repellat aut ratione ipsum velit consectetur, sapiente voluptate facere!'
+        'Hi. I am Ivars. I like to leave my footprint on the web by creating beautiful websites.',
+        'I call VS Code and Codepen my digital home where I spend most of the day creating UI components designed by my colleagues.',
+
+        'Hard working personality with great attention to detail and a common sense. Enjoy working with everything that has an opening and closing tags.',
+        "You could describe me as patient and hard-working person who likes to reach KPI's and deliver quality code without shortcuts."
       ],
       image: {
         alt: 'Ivars Melecis',
@@ -57,7 +60,7 @@ const HomeContextProvider = props => {
     },
     skills: {
       title: 'Skills',
-      content: ['Skills listed below are some tools I feel comfortable working with.', ' Some of them are used daily and some are used either for my personal projects or as a development tool for my day to day job.'],
+      content: ['Toys shown below ar some I like to play with. Feel free to click on the title to reveal secrets.', 'MERN stack is set of tools I would like to use more as I like the fact that Javascript can be used across the board.'],
       data: [
         {
           _id: 0,
@@ -147,32 +150,10 @@ const HomeContextProvider = props => {
     },
     projects: {
       title: 'Projects',
+      content: ['Below are some of recent websites I have build using Photoshop designs and provided in-house template.','Feel free to check out my Codepen or GitHub accounts for more.'],
       items: [
         {
           id: 0,
-          siteName: 'St Marychurch CE Primary and Nursery School',
-          image: 'st-marychurch-ce-primary-and-nursery-school.png',
-          content: ['Feature rich responsive website. Built in a modular way to ensure ability of changing content blocks with ease.', 'This has been achieved by building blocks in React and then transferring data onto CMS theme.'],
-          link: 'https://st-marychurch-cofe-primary-and-nursery-school.stage-primarysite.net/',
-          highlights: [
-            {
-              bullet: 'Fully responsive'
-            },
-            {
-              bullet: 'Scroll to content CTA'
-            },
-            {
-              bullet: 'SVG spritesheet usage',
-              description: 'Using SVG spritesheet allows to reduce requests made to render content and grants great user experience due to render quality'
-            },
-            {
-              bullet: 'HTML 5 outliner ready',
-              description: 'Building schemantic markup helps users navigate the site.'
-            }
-          ]
-        },
-        {
-          id: 1,
           siteName: 'Hucknall Flying High Academy',
           image: 'hucknall-flying-high-academy.png',
           content: ['Interactive website created with several animations to enrich user experiance whilst ensuring that all content is easily accessible.'],
@@ -194,20 +175,20 @@ const HomeContextProvider = props => {
             },
             {
               bullet: 'Elements cycling in view with interval',
-              description: 'This technique is used to reduce space take on the page or to link relevant content together by showing them synchronously.'
+              description: 'This technique is used to reduce space taken on the page or to link relevant content together by showing them synchronously.'
             }
           ]
         },
         {
-          id: 2,
+          id: 1,
           siteName: 'West Bridgford Junior School',
           image: 'west-bridgford-junior-school.png',
-          content: ['Beautiful website built with HTML, CSS, Jquery ( client side only ).', 'This website complements with few trending features such as reverse sticky navigation, ease to access content block anchors, parallax effect and more...'],
+          content: ['Beautiful website built with HTML, CSS, Jquery ( client side only ).', 'This website complements with few trending features such as reverse sticky navigation, easy to access content block anchors, parallax effect and more...'],
           link: 'https://www.wbjs.com/',
           highlights: [
             {
               bullet: 'Reverse sticky menu',
-              description: 'Menu is fixed on the top of the page and reveals header as user scroll up.'
+              description: 'Menu is fixed on the top of the page and reveals header as user scrolls up.'
             },
             {
               bullet: 'Custom made slider with navigation arrows and progress bar'
@@ -221,36 +202,12 @@ const HomeContextProvider = props => {
             },
             {
               bullet: 'Parallax effect',
-              description: 'This feature allows user to view large picutres on scroll and simply looks great'
+              description: 'This feature allows user to view large images on scroll and simply looks great.'
             }
           ]
         },
         {
-          id: 3,
-          siteName: 'Marlborough Primary School',
-          image: 'marlborough-primary-school.png',
-          content: ['Graphics based website. CSS is great - but it cannot do everything. This is were scrubbed graphics shine.'],
-          link: 'https://marlborough-junior-school.stage-primarysite.net/welcome/',
-          highlights: [
-            {
-              bullet: 'PSD slicing',
-              description: 'Building this type of website requires skill to cut photoshop file in order to convert it to fully working website.'
-            },
-            {
-              bullet: 'extraordinary shape slideshow'
-            },
-            {
-              bullet: 'Image spritesheet usage',
-              description: 'Using image spritesheet reduces requests made to the server as well as removes delays between initial view and hover effect.'
-            },
-            {
-              bullet: 'Ability to use graphics on dynamic size elements',
-              description: 'This requires slicing graphics in a way ehre they can "grow" together with content.'
-            }
-          ]
-        },
-        {
-          id: 4,
+          id: 2,
           siteName: 'John Clifford Primary & Nursery School',
           image: 'john-clifford-primary-and-nursery-school.png',
           content: ["Websites full of features don't necessarily need to be long in terms of scrolling. Here is a non-scrolling website that includes multiple content based features in a nice looking fly-out triangle shape."],
