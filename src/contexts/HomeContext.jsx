@@ -156,7 +156,7 @@ const HomeContextProvider = props => {
           id: 0,
           siteName: 'Hucknall Flying High Academy',
           image: 'hucknall-flying-high-academy.png',
-          content: ['Interactive website created with several animations to enrich user experiance whilst ensuring that all content is easily accessible.'],
+          content: ['Interactive website created with several animations to enrich user experiance whilst ensuring that all content is easy to access.'],
           link: 'https://www.hucknallfha.co.uk',
           highlights: [
             {
@@ -181,6 +181,30 @@ const HomeContextProvider = props => {
         },
         {
           id: 1,
+          siteName: 'Marlborough Primary School',
+          image: 'marlborough-primary-school.png',
+          content: ['Graphics based website. CSS is great - but it cannot do everything. This is where scrubbed graphics shine.'],
+          link: 'https://www.mps.bham.sch.uk/',
+          highlights: [
+            {
+              bullet: 'PSD slicing',
+              description: 'Building this type of website requires skill to cut photoshop file in order to convert it to fully working website.'
+            },
+            {
+              bullet: 'extraordinary shape slideshow'
+            },
+            {
+              bullet: 'Image spritesheet usage',
+              description: 'Using image spritesheet reduces requests made to the server as well as removes delays between initial view and hover effect.'
+            },
+            {
+              bullet: 'Ability to use graphics on dynamic size elements',
+              description: 'This requires slicing graphics in a way ehre they can "grow" together with content.'
+            }
+          ]
+        },
+        {
+          id: 2,
           siteName: 'West Bridgford Junior School',
           image: 'west-bridgford-junior-school.png',
           content: ['Beautiful website built with HTML, CSS, Jquery ( client side only ).', 'This website complements with few trending features such as reverse sticky navigation, easy to access content block anchors, parallax effect and more...'],
@@ -207,7 +231,30 @@ const HomeContextProvider = props => {
           ]
         },
         {
-          id: 2,
+          id: 3,
+          siteName: 'Leading Learners Academy Trust',
+          image: 'leading-learners.png',
+          content: ['Modern and function website.'],
+          link: 'https://www.leadinglearnersmat.co.uk/',
+          highlights: [
+            {
+              bullet: 'Extraordinary shapes'
+            },
+            {
+              bullet: 'Responsive content slider'
+            },
+            {
+              bullet: 'Fixed background effect',
+              description: 'Adding that extra dimension to the website. ( Please view any contents page to see effect )'
+            },
+            {
+              bullet: 'Location identifier',
+              description: 'Highlighted current topic on main navigation to help user identify page they are on.'
+            }
+          ]
+        },
+        {
+          id: 4,
           siteName: 'John Clifford Primary & Nursery School',
           image: 'john-clifford-primary-and-nursery-school.png',
           content: ["Websites full of features don't necessarily need to be long in terms of scrolling. Here is a non-scrolling website that includes multiple content based features in a nice looking fly-out triangle shape."],
