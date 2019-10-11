@@ -60,7 +60,7 @@ const HomeContextProvider = props => {
     },
     skills: {
       title: 'Skills',
-      content: ['Toys shown below ar some I like to play with. Feel free to click on the title to reveal secrets.', 'MERN stack is set of tools I would like to use more as I like the fact that Javascript can be used across the board.'],
+      content: ['Toys shown below are some I like to play with. Feel free to click on the title to reveal secrets.', 'MERN stack is set of tools I would like to use more as I like the fact that Javascript can be used across the board.'],
       data: [
         {
           _id: 0,
