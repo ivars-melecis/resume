@@ -14,7 +14,8 @@ const Landing = () => {
   useEffect(() => {
     new TypeEffect({
       target: '#type',
-      text: 'Curriculum Vitae'
+      text: 'Curriculum Vitae',
+      speed: 50
     });
   }, []);
 

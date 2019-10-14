@@ -145,12 +145,6 @@ const HomeContextProvider = props => {
           title: 'JWT',
           descr: 'First choice when it comes to authentification and authorization',
           isExpanded: false
-        },
-        {
-          _id: 14,
-          title: 'Angular',
-          descr: 'Angular v2 +. Entry level due to fact that I have used it for personal projects only.',
-          isExpanded: false
         }
       ]
     },
