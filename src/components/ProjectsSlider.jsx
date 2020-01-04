@@ -12,6 +12,8 @@ const ProjectsSlider = ({ slides }) => {
       spaceBetween: 20,
       slidesPerView: 1,
       loop: true,
+      preloadImages: false,
+      lazy: true,
       centeredSlides: true,
       direction: 'horizontal',
       autoplay: {
@@ -62,7 +64,8 @@ const ProjectsSlider = ({ slides }) => {
           {slides.map(slide => (
             <div key={slide.id} className='swiper-slide'>
               <div className='ps-thumb'>
-                <img src={slide.image} alt={slide.siteName} />
+                <img className='swiper-lazy' src={`${process.env.PUBLIC_URL}/img-placeholder.png`} data-src={slide.image} alt={slide.siteName} />
+                <div className='swiper-lazy-preloader'></div>
               </div>
             </div>
           ))}
