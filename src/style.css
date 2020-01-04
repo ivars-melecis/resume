@@ -4,7 +4,8 @@ html {
 }
 
 body {
-  font-family: 'Poppins', 'Segoe UI', Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Poppins", "Segoe UI", Tahoma, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-size: 1.6rem;
   line-height: 1.4;
   color: #1b1b1b;
@@ -12,7 +13,7 @@ body {
 }
 
 .secondary-font {
-  font-family: 'Oswald';
+  font-family: "Oswald";
 }
 
 .sr-only {
@@ -85,7 +86,7 @@ button:hover {
     position: absolute;
     right: 0;
     top: 0;
-    content: '';
+    content: "";
     width: 0;
     height: 0;
     border-top: 500px solid #091428;
@@ -97,7 +98,7 @@ button:hover {
     position: absolute;
     left: 0;
     bottom: 0;
-    content: '';
+    content: "";
     width: 0;
     height: 0;
     border-bottom: 400px solid #091428;
@@ -173,7 +174,7 @@ button:hover {
     width: 100%;
   }
   .vertical-menu ul li::after {
-    content: '';
+    content: "";
     display: block;
     height: 1px;
     width: 100%;
@@ -202,7 +203,7 @@ button:hover {
   .vertical-menu ul li span::before,
   .vertical-menu ul li span::after {
     position: absolute;
-    content: '';
+    content: "";
     border-radius: 2px;
     box-sizing: border-box;
   }
@@ -598,7 +599,7 @@ button:hover {
   right: 50%;
   -webkit-transform: translateX(50%);
   transform: translateX(50%);
-  content: '';
+  content: "";
   height: 2px;
   width: 0;
   background: #ffcc2d;
@@ -874,12 +875,12 @@ button:hover {
   margin-bottom: 30px;
 }
 
-.projects-content  p {
+.projects-content p {
   margin-bottom: 10px;
 }
 
 .projects-content p:last-child {
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 /* Controls
@@ -897,7 +898,7 @@ button:hover {
   width: 15px;
   border-style: solid;
   border-width: 4px 4px 0 0;
-  content: '';
+  content: "";
   transform: rotate(-45deg);
 }
 
@@ -1098,7 +1099,7 @@ button:hover {
 .ps-highlights .psh-bullet::before {
   display: block;
   margin-top: 5px;
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   min-width: 10px;
@@ -1537,7 +1538,7 @@ button:hover {
   position: fixed;
   right: 10px;
   bottom: 356px;
-  background: #0082c7;
+  background: #091428;
   border: 2px solid #fbfbfb;
   border-radius: 5px;
   padding: 10px 15px;
@@ -1545,7 +1546,7 @@ button:hover {
   z-index: 500;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
   transform: translateX(100px);
-  transition: ease 0.5s background, ease 0.2s transform;
+  transition: ease 0.5s background, ease 0.2s transform, ease 0.2s color;
 }
 
 .scroll-top.visible {
@@ -1553,7 +1554,8 @@ button:hover {
 }
 
 .scroll-top:hover {
-  background: #ffcc2d;
+  background: #46b692;
+  color: #091428;
 }
 
 .scroll-top .chevron::before {
@@ -1619,7 +1621,7 @@ button:hover {
   position: absolute;
   width: 20px;
   height: 20px;
-  content: '';
+  content: "";
   box-sizing: border-box;
   border-radius: 5px;
   right: 50%;
