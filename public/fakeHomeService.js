@@ -1,6 +1,6 @@
 function getHomeData() {
   return {
-    name: 'Ivars Melecis',
+    name: 'Georgina Steward',
     homeSections: ['Home', 'About', 'Projects', 'Contact'],
     socialLinks: [
       {
@@ -25,10 +25,7 @@ function getHomeData() {
     ],
     about: {
       title: 'About',
-      content: [
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, molestiae! Quam fuga reiciendis, illum eos veritatis assumenda rerum iure error laborum voluptatem cumque ipsam, officiis molestias praesentium dicta impedit id!',
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque sint at cum architecto magni mollitia odit necessitatibus et itaque soluta facilis repellat aut ratione ipsum velit consectetur, sapiente voluptate facere!'
-      ],
+      content: ['Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, molestiae! Quam fuga reiciendis, illum eos veritatis assumenda rerum iure error laborum voluptatem cumque ipsam, officiis molestias praesentium dicta impedit id!', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque sint at cum architecto magni mollitia odit necessitatibus et itaque soluta facilis repellat aut ratione ipsum velit consectetur, sapiente voluptate facere!'],
       image: {
         alt: 'Ivars Melecis',
         loc: '/im.jpg'
