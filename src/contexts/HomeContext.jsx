@@ -5,7 +5,7 @@ export const HomeContext = createContext();
 
 const HomeContextProvider = props => {
   const [data, dispatch] = useReducer(homeReducer, {
-    siteName: 'Georgina Steward',
+    siteName: 'Ivars Melecis',
     profession: 'Web Developer',
     cvFile: 'cv-ivars-melecis.pdf',
     sections: ['home', 'about', 'skills', 'projects'],

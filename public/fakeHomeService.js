@@ -1,6 +1,6 @@
 function getHomeData() {
   return {
-    name: 'Georgina Steward',
+    name: 'Ivars Melecis',
     homeSections: ['Home', 'About', 'Projects', 'Contact'],
     socialLinks: [
       {
