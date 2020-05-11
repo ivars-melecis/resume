@@ -18,7 +18,10 @@ const Projects = () => {
           ))}
         </div>
         <ProjectsSlider slides={items} />
-        <p className='ps-info-text'>*My work is the front-end of websites above using HTML, CSS and Javascript on our very basic in-house template.</p>
+        <p className='ps-info-text'>
+          * Sites are built using either custom company CMS or custom Wordpress.
+          theme
+        </p>
       </div>
     </section>
   );
