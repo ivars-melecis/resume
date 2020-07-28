@@ -19,8 +19,8 @@ const Projects = () => {
         </div>
         <ProjectsSlider slides={items} />
         <p className='ps-info-text'>
-          * Sites are built using either custom company CMS or custom Wordpress.
-          theme
+          * Sites are built using either custom company CMS or custom Wordpress
+          theme.
         </p>
       </div>
     </section>
