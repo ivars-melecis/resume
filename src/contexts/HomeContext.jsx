@@ -70,70 +70,70 @@ const HomeContextProvider = (props) => {
         {
           _id: 0,
           title: 'HTML5',
-          descr: '5+ years experience using plain HTML5.',
+          descr: '5+ years experience using plain HTML5',
           isExpanded: true,
         },
         {
           _id: 1,
           title: 'SCSS',
-          descr: 'Entry level. Using in development where possible.',
+          descr: 'Entry level. Using in development where possible',
           isExpanded: false,
         },
         {
           _id: 2,
           title: 'CSS3',
-          descr: '5+ years experience using plain CSS3.',
+          descr: '5+ years experience using plain CSS3',
           isExpanded: false,
         },
         {
           _id: 3,
           title: 'Jquery',
           descr:
-            'Intermediate level. Used extensively before I moved to vanilla JS in 2016.',
+            'Intermediate level. Used extensively before I moved to vanilla JS in 2016',
           isExpanded: false,
         },
         {
           _id: 4,
           title: 'MongoDB',
-          descr: 'Intermediate level. Using for my personal projects.',
+          descr: 'Intermediate level. Using for my personal projects',
           isExpanded: false,
         },
         {
           _id: 5,
           title: 'Mysqli',
-          descr: 'Intermediate level. Used on live projects.',
+          descr: 'Intermediate level. Used on live projects',
           isExpanded: false,
         },
         {
           _id: 6,
           title: 'PHP',
           descr:
-            'Intermediate level. Used extensively before I moved to the MERN stack in 2018.',
+            'Intermediate level. Used extensively before I moved to the MERN stack in 2018',
           isExpanded: false,
         },
         {
           _id: 7,
           title: 'Wordpress',
-          descr: 'Using daily since 2019.',
+          descr: 'Using daily since 2019',
           isExpanded: false,
         },
         {
           _id: 8,
           title: 'Github',
           descr:
-            'Intermediate level. Use all the usual commands to store and version my code.',
+            'Intermediate level. Use all the usual commands to store and version my code',
           isExpanded: false,
         },
         {
           _id: 9,
           title: 'Node.js',
-          descr: 'Intermediate level. Used extensively since 2018.',
+          descr: 'Intermediate level. Used extensively since 2018',
           isExpanded: false,
         },
         {
           _id: 10,
           title: 'Express.js',
-          descr: 'Intermediate level. Using to build MERN applications.',
+          descr: 'Intermediate level. Using to build MERN applications',
           isExpanded: false,
         },
         {
@@ -145,13 +145,13 @@ const HomeContextProvider = (props) => {
         {
           _id: 12,
           title: 'React.js',
-          descr: 'Using this great library since 2018.',
+          descr: 'Using this great library since 2018',
           isExpanded: false,
         },
         {
           _id: 13,
           title: 'Puppeteer',
-          descr: 'Used here and there to automate some of my day to day jobs.',
+          descr: 'Used here and there to automate some of my day to day jobs',
           isExpanded: false,
         },
         {
@@ -161,13 +161,19 @@ const HomeContextProvider = (props) => {
             'First choice when it comes to authentification and authorization',
           isExpanded: false,
         },
+        {
+          _id: 15,
+          title: 'XD',
+          descr:
+            'Using along Adobe Photoshop to create web projects',
+          isExpanded: false,
+        },
       ],
     },
     projects: {
       title: 'Projects',
       content: [
-        'Below are some of my projects completed using various tools.',
-        'Please check out my Codepen or GitHub accounts for more projects.',
+        'Below are some of my projects completed using various tools whilst being employed by some great companies.',
       ],
       items: [
         {
@@ -259,61 +265,37 @@ const HomeContextProvider = (props) => {
         },
         {
           id: 3,
-          siteName: 'West Bridgford Junior School',
-          image: 'west-bridgford-junior-school.png',
+          siteName: 'ProCogia',
+          image: 'procogia.png',
           content: [
-            'Beautiful website built with HTML, CSS, Jquery ( client side only ).',
-            'This website complements with few trending features such as reverse sticky navigation, easy to access content block anchors, parallax effect and more...',
+            'Bespoke WordPress theme powered website.',
+            'This website adds itself that little bit of depth by introducting shapes moving on scroll.',
           ],
-          link: 'https://www.wbjs.com/',
+          link: 'https://procogia.com/',
           highlights: [
             {
-              bullet: 'Reverse sticky menu',
+              bullet: 'Scroll animation',
               description:
-                'Menu is fixed on the top of the page and reveals header as user scrolls up.',
+                'Each section has optional animated edge',
             },
             {
-              bullet:
-                'Custom made slider with navigation arrows and progress bar',
+              bullet: 'Tabbed content',
             },
             {
-              bullet: 'Easy to access section menu',
-              description: 'Allows to navigate the page without scrolling.',
+              bullet: 'Blog',
             },
             {
-              bullet: 'Custom made staff section',
-            },
-            {
-              bullet: 'Parallax effect',
-              description:
-                'This feature allows user to view large images on scroll and simply looks great.',
+              bullet: 'Site wide search facility',
             },
           ],
         },
         {
           id: 4,
-          siteName: 'Leading Learners Academy Trust',
-          image: 'leading-learners.png',
-          content: ['Modern and function website.'],
-          link: 'https://www.leadinglearnersmat.co.uk/',
-          highlights: [
-            {
-              bullet: 'Extraordinary shapes',
-            },
-            {
-              bullet: 'Responsive content slider',
-            },
-            {
-              bullet: 'Fixed background effect',
-              description:
-                'Adding that extra dimension to the website. ( Please view any contents page to see effect )',
-            },
-            {
-              bullet: 'Location identifier',
-              description:
-                'Highlighted current topic on main navigation to help user identify page they are on.',
-            },
-          ],
+          siteName: 'West HR',
+          image: 'westhr.png',
+          content: ['Colour and feature rich website powered by Wordpress.'],
+          link: 'https://www.westhr.co.uk/',
+          highlights: [],
         },
         {
           id: 5,
