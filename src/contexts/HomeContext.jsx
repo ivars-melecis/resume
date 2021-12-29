@@ -181,7 +181,7 @@ const HomeContextProvider = (props) => {
           siteName: 'Emintell',
           image: 'emintell.png',
           content: [
-            'Lovely Wordpress powered website that is packed with bespoke features to enhance user experience.',
+            'Lovely WordPress powered website that is packed with bespoke features to enhance user experience.',
           ],
           link: '//www.emintell.com/',
           highlights: [
