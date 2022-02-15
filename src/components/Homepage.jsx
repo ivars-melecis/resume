@@ -23,6 +23,7 @@ const Homepage = () => {
       <Helmet>
         <link rel='canonical' href='https://melecis.co.uk/' />
         <meta name='robots' content='index, follow' />
+        <title>Ivars Melecis - {data.profession} :: Personal Portfolio"</title>
       </Helmet>
       <SvgSprite />
       <Landing />
