@@ -7,7 +7,7 @@
     "react-app-polyfill": "^1.0.4",
     "react-dom": "^16.10.1",
     "react-helmet": "^5.2.1",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.1",
     "scroll-to-element": "^2.0.3",
     "swiper": "^5.0.4",
     "uuid": "^3.3.3"
