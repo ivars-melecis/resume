@@ -1682,3 +1682,24 @@ button:hover {
     transform: translateX(50%) rotateY(360deg);
   }
 }
+
+
+/** Homepage Logo
+=================*/
+.homepage-logo {
+    position: absolute;
+    bottom: auto;
+    left: auto;
+    top:50%;
+    right:50%;
+    transform:translateX(50%) translateY(-50%);
+    width: 490px;
+    height: 500px;
+}
+
+@media(max-width:640px){
+.homepage-logo {
+    width: 240px;
+    height: 250px;
+} 
+}
